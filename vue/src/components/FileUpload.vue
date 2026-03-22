@@ -42,7 +42,8 @@ const emit = defineEmits<{
 const auth = useAuthStore()
 const uploading = ref(false)
 
-const uploadUrl = computed(() => '/api/upload')
+const apiBase = import.meta.env.VITE_API_BASE_URL ? `${import.meta.env.VITE_API_BASE_URL}/api` : '/api'
+const uploadUrl = computed(() => `${apiBase}/upload`)
 
 const headers = computed(() => ({
   Authorization: `Bearer ${auth.token}`
