@@ -1,0 +1,4 @@
+{
+  "build_command": "mvn clean package -DskipTests",
+  "start_command": "java -jar target/*.jar --spring.config.location=classpath:/application.yml"
+}
