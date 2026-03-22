@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "music-admin-fe": "file:.."
+  }
+}

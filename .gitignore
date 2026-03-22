@@ -1,0 +1,32 @@
+# Java
+java/target/
+java/*.jar
+java/*.war
+*.class
+
+# Node
+vue/node_modules/
+vue/dist/
+vue/.vite/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+nohup.out
+
+# Uploads (runtime)
+java/uploads/*.jpg
+java/uploads/*.png
+java/uploads/*.webp
+java/uploads/*.ico
+java/uploads/*.mp3
+java/uploads/*.mp4

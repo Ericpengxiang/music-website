@@ -1,0 +1,4 @@
+{
+  "build_command": "pnpm install && pnpm build",
+  "output_dir": "dist"
+}
